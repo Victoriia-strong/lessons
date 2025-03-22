@@ -1,0 +1,140 @@
+@import url(fonts.css);
+
+@import url(reset.css);
+
+@import url("https://fonts.googleapis.com/css?family=Gidole:regular&display=swap");
+
+
+
+
+body {
+	font-family: "DirectorUA";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+h1{
+	font-family: "Volja";
+	font-size: 36px;
+	color: rgb(144, 19, 87);
+	text-decoration: underline;
+	text-underline-offset: 6px;
+}
+
+h2{
+	font-family: "Volja";
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 2;
+	color: purple;
+}
+
+h3{
+	font-family: "Gidole";
+	font-size: 34px;
+	text-decoration: underline;
+	text-decoration-color: rgb(163, 5, 28);
+	text-decoration-style: wavy;
+	line-height: 2;
+	color: rgb(8, 102, 41);
+	text-shadow:  3px 4px 5px #edde15;
+}
+
+p{
+	color: rgb(2, 2, 127);
+}
+
+.plan{
+	text-align: center;
+}
+
+.build p {
+	color: orange;
+	word-spacing: 30px;
+}
+
+ol {
+	color: rgb(21, 126, 192);
+}
+
+ol>li>ol {
+	color:rgb(2, 102, 57);
+	text-transform: uppercase;
+	text-decoration: overline;
+	text-decoration-color: rgb(69, 120, 1);
+	text-decoration-style: dotted;
+	text-decoration-thickness: 4px;
+}
+
+
+.build > ul {
+	color: blue;
+	text-align: right;
+	text-decoration: line-through;
+}
+
+.genplan p{
+	font-size: 16px;
+	color: rgb(130, 2, 2);
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+a {
+	font-family: "Hryvnia";
+	font-size: 24px;
+	font-weight: 500;
+	color: #2300c0;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	line-height: 1.75;
+}
+
+.gp {
+	font-size: 22px;
+	color: rgb(206, 4, 142);
+}
+
+.list-upper {
+	color: grey;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+}
+
+.menu {
+	text-align: right;
+}
+
+
+/* ECOBAZAR */
+
+.ecobazar *{
+	font-family: "Poppins", sans-serif;
+	line-height: 150%;
+	font-size: 18px;
+}
+
+.ecobazar h2{
+	font-size: 20px;
+	font-weight: 500;
+	color: #1A1A1A;
+}
+
+.ecobazar p{
+	color: #808080;
+}
+
+.ecobazar span{
+	font-size: 40px;
+	font-weight: 500;
+	color: rgb(65, 5, 47);
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-decoration-color: rgb(150, 6, 152);
+	text-shadow: 4px 3px 5px #022109;
+}
+
+
+

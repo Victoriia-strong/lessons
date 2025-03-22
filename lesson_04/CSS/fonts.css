@@ -1,0 +1,85 @@
+
+/* DirectorUA */
+@font-face {
+	font-family: "DirectorUA" ;
+	src: url("../fonts/DirectorUA/DirectorUA-Regular.woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "DirectorUA" ;
+	src: url("../fonts/DirectorUA/DirectorUA-Light.woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "DirectorUA" ;
+	src: url("../fonts/DirectorUA/DirectorUA-Bold.woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/* Volja */
+@font-face {
+	font-family: "Volja" ;
+	src: url("../fonts/Volja/volja-regular_w.woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/* Hryvnia */
+@font-face {
+	font-family: "Hryvnia" ;
+	src: url("../fonts/Hryvnia/LevTypeHryvnia-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hryvnia" ;
+	src: url("../fonts/Hryvnia/LevTypeHryvnia-Medium.ttf");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hryvnia" ;
+	src: url("../fonts/Hryvnia/LevTypeHryvnia-Light.ttf");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: "Hryvnia" ;
+	src: url("../fonts/Hryvnia/LevTypeHryvnia-Bold.ttf");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hryvnia" ;
+	src: url("../fonts/Hryvnia/LevTypeHryvnia-Thin.ttf");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+
+
+
