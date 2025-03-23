@@ -1,0 +1,170 @@
+@import url(reset.css);
+
+h1 {
+	color: #2100c7;
+}
+
+h2 {
+	color: purple;
+}
+
+h3 {
+	color: green;
+}
+
+h4 {
+	color: rgb(3, 95, 3);
+}
+
+span {
+	color: #b9bc29;
+}
+
+ul>li>a{
+	color: rgb(163, 231, 53);
+}
+
+.menu ul>li>ul>li{
+	color: #cc2727;
+}
+
+.menu ul>li>ul>li+li{
+	color: #cc27c6;
+}
+
+.info p span {
+	color: red;
+}
+
+.info p +p  {
+	color: rgb(0, 191, 255);
+}
+
+#capital {
+	color: rgb(2, 98, 93);
+}
+
+.kyiv h3 {
+	color: rgb(6, 130, 39);
+}
+
+.kyiv p {
+	color: #4597f7;
+}
+
+.kyiv p + p{
+	color: #b9bc29;
+}
+
+mark {
+	color: rgb(54, 1, 44);
+}
+
+.capital > p{
+	color: red;
+}
+
+.capital + p {
+	color: violet;
+}
+
+
+span.title {
+	color: rgb(255, 0, 102);
+}
+
+ol>li>p {
+	color: rgb(13, 13, 192);
+}
+
+
+[class*="seas"] {
+	color: rgb(86, 156, 179);
+}
+
+.territory p{
+color: green;
+}
+
+.item{
+	color: rgb(100, 110, 220);
+}
+
+.list h3 {
+	color: red;
+}
+
+.list ul>li{
+	color: blueviolet;
+}
+
+.list ul>li>p{
+	color: rgb(7, 0, 14);
+}
+
+.list ul>li>ol>li{
+	color: rgb(52, 43, 226);
+}
+
+.list ul>li>ol>li+li{
+	color: rgb(43, 214, 226);
+}
+
+a {
+	color: rgb(243, 142, 158);
+}
+
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.red.green {
+	color: blue;
+}
+
+.yellow,
+.red {
+	color: yellow;
+}
+
+
+/* додаткове завдання */
+
+.addlist ul>li {
+	color: red;
+}
+
+.addlist ul>li+li{
+	color: green;
+}
+
+
+/* 2 level */
+.addlist >ul>li>ul>li {
+	color: blue;
+}
+
+.addlist >ul>li>ul>li+li {
+	color: orange;
+}
+
+/* 3 level */
+
+.addlist ol>li {
+	color: #4597f7;
+}
+
+.addlist ol>li +li {
+	color: #5d5d5d;
+}
+
+/* span 2 level */
+
+.addlist ul>li>ul>li>span {
+	color: #a0f0fc;
+}
