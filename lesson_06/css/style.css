@@ -1,0 +1,230 @@
+/* @import url(fonts.css); */
+
+@import url(reset.css);
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header,
+.footer {
+	min-height: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #302C42;
+}
+
+.task-list,
+.up {
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.task-list >li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.task-list >li:last-child {
+	margin-right: 0;
+}
+
+.task-list >li:hover,
+.up:hover {
+	text-shadow: 0 0 15px #fff;
+}
+
+/* ECOBAZAR */
+
+#ecobazar {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+	color: #808080;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#ecobazar .container {
+	max-width: 678px;
+	margin: 0 auto;
+}
+
+#ecobazar .text {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.list {
+	margin-bottom: 20px;
+}
+
+.item {
+	line-height: 1.4;
+	margin-bottom: 14px;
+	background: url(../img/Check.png) 0 0 / 20px no-repeat;
+	padding-left: 28px;
+	min-height: 20px; /* запобіжник */
+}
+
+#ecobazar .text:last-child {
+	margin-bottom: 0;
+}
+
+.item:last-child {
+	margin-bottom: 0;
+}
+
+/* HYDRA */
+
+#hydra,
+#contacts {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #302C42;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#hydra .container {
+	margin: 0 auto;
+	max-width: 1302px;
+	font-size: 0;
+	background: url(../img/wave-top.png) 0 40px no-repeat, url(../img/wave-bottom.png) 0 325px no-repeat;
+}
+
+#hydra .img,
+#hydra .text-about {
+	vertical-align: middle;
+}
+
+.text-about {
+	display: inline-block;
+	max-width: 630px;
+	width: 100%;
+	min-height: 100%;
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+.img {
+	max-width: 524px;
+	width: 100%;
+	background: #A3A3A3;
+	margin-right: 108px;
+	border-radius: 43% 19%;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#hydra h2 {
+	display: block;
+	color: rgba(255, 255, 255, 0.95);
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-bottom: 42px;
+}
+
+#hydra h2>strong {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+#hydra .text {
+	line-height: 1.5;
+	margin-bottom: 28px;
+}
+
+.button {
+	font-size: 12px;
+	font-weight: 700;
+	color: #343045;
+	text-transform: uppercase;
+	padding: 17px 40px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+	border-radius: 40px;
+}
+
+.button:hover{
+	box-shadow: 0 0 15px #fff;
+	text-decoration: underline;
+}
+
+/*CONTACTS*/
+
+#contacts .container {
+	max-width: 1302px;
+	margin: 0 auto;
+}
+
+.contacts-content {
+	padding: 20px 60px;
+	background: radial-gradient(circle, rgba(58, 52, 86, 0.95) 0%, rgba(33, 30, 46, 1) 100%);
+	border-radius: 90px;
+	box-shadow: 4px 4px 0px rgba(192, 183, 232, 0.01);
+	font-size: 0;
+	}
+	
+	.contact-item {
+		display: inline-block;
+		font-family: "Montserrat", sans-serif;
+		font-size: 14px;
+		color: #fff;
+	}
+	
+	.contact-item .item-text {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	.contact-item p {
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	
+	.contact-item a {
+		font-size: 14px;
+	}
+	
+	.contact-item-location,
+	.contact-item-phone {
+		margin-right: 40px;
+	}
+	
+	.contact-item-phone .item-text {
+		text-align-last: left;
+	}
+	
+	.contact-item-phone img {
+		margin-right: 30px;
+	}
+	
+	.contact-item-mail img {
+		margin-right: 24px;
+	}
+	
+	.vert-line {
+		display: inline-block;
+		width: 1px;
+		height: 116px;
+		background: rgba(192, 183, 232, 0.33);
+		vertical-align: middle;
+		margin-right: 40px;
+	}
